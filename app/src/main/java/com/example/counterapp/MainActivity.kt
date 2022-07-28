@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity()
         btn_click_me.setOnClickListener {
             counter=counter+1
             myTextView.text=counter.toString()
-            Toast.makeText(this@MainActivity, "Hello User!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@MainActivity, "you clicked", Toast.LENGTH_SHORT).show()
         }
     }
 }
